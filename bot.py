@@ -53,7 +53,7 @@ main_menu = InlineKeyboardMarkup(inline_keyboard=[
 display_menu = InlineKeyboardMarkup(inline_keyboard=[
     [InlineKeyboardButton(text="📱 Оригинал", callback_data="display_original")],
     [InlineKeyboardButton(text="🔄 Снятый оригинал", callback_data="display_used_original")],
-    [InlineKeyboardButton(text="🔥 Fog (дымка)", callback_data="display_fog")],
+    [InlineKeyboardButton(text="🔥 Fog", callback_data="display_fog")],
     [InlineKeyboardButton(text="💪 Hard OLED", callback_data="display_hard_oled")],
     [InlineKeyboardButton(text="🌟 Soft OLED", callback_data="display_soft_oled")],
     [InlineKeyboardButton(text="📺 Копия TFT", callback_data="display_tft")],
